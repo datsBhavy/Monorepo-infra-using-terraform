@@ -1,1 +1,2 @@
-# monorepo-infra-using-terraform
+# Monorepo ECS Infrastructure using Terraform 
+Monorepo is a new style of development that involves multiple projects in single repository. For such a scenario, we need to have multiple microservices created and relevant Docker images pushed too. This Terraform code helps you create AWS infrastructure for multiple backend services in one go alongside ec2 instance for frontend. It also creates ACM certificate and route 53 records for the service automatically. 
